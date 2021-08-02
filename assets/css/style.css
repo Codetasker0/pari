@@ -1,0 +1,1194 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,600&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Lora', serif;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1170px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* ============================ */
+   /* ======= TopNav ======= */
+/* ============================ */
+.topnav{
+	background-color: #292929;
+}
+.F-topnav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.F-text {
+	width: 50%;
+	padding: 0 0 0 20px;
+}
+.F-social{
+	width: 50%;
+	text-align: right;
+}
+.F-topnav .F-text li,
+.F-topnav .F-social li {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	padding: 8px 30px 8px 0;	
+}
+.F-topnav .F-text li{
+	padding: 8px 40px 8px 8px;	
+}
+.F-topnav li a, .F-social .fa{
+	color: #fff;
+}
+
+
+/* ============================ */
+   /* ======= EndTopNav ======= */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ============================ */
+   /* ======= Header ======= */
+/* ============================ */
+
+nav.navbar {
+	width: 100%;
+	text-align: center;
+}
+
+.nav-items {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 0 80px;
+}
+
+.nav-items ul li {
+	display: inline-block;
+	padding: 45px 20px 50px 20px;
+}
+
+.nav-items ul li a {
+	font-size: 13px;
+	color: #2a2a2a;
+	font-weight: 400;
+}
+
+.nav-items ul li a.active,
+a:hover {
+	color: #d3995f;
+}
+
+h1 .logo {
+	width: 100%;
+	padding: 35px 0;
+}
+/* ============================ */
+   /* ======= EndHeader ======= */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+/* ============================ */
+   /* ======= MobilMenu ======= */
+/* ============================ */
+.F-mobile-menu{
+	display: none;
+		}
+nav .F-mobile-menu {
+	width: 100%;
+	text-align: center;
+}
+
+.F-nav-items {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.F-nav-items ul li {
+	display: inline-block;
+	padding: 45px 20px 50px 20px;
+}
+
+.F-nav-items ul li a {
+	font-size: 13px;
+	color: #2a2a2a;
+	font-weight: 400;
+}
+
+.F-nav-items ul li a.active,
+a:hover {
+	color: #d3995f;
+}
+
+h1 .logoo {
+	width: 100%;
+	padding: 35px 0;
+}
+.checkbtn{
+	font-size: 30px;
+	float: right;
+	line-height: 115px;
+	margin-right: 20px;
+	cursor: pointer;
+	display: none;
+}
+#check{
+	display: none;
+}
+
+/* ============================ */
+   /* ======= EndMobilMenu ======= */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* ============================ */
+   /* =======ShowCase  ======= */
+/* ============================ */
+
+.showcase {
+	background-color: #f9f9f9;
+}
+
+.main-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.title {
+	width: 65%;
+	padding: 60px 85px 70px 90px;
+}
+
+.title h2 {
+	font-size: 50px;
+	font-weight: 600;
+	color: #d3995f;
+}
+
+.title p {
+	font-size: 15px;
+	line-height: 25px;
+	padding: 40px 0 30px 0;
+	font-weight: 500;
+	color: #686868;
+}
+
+.showcas-img {
+	width: 35%;
+	height: 480px;
+	max-width: 345px;
+	position: relative;
+
+}
+
+.showcas-img img {
+	width: 100%;
+	height: 480px;
+	position: absolute;
+	right: 100px;
+	object-fit: cover;
+	object-position: top;
+}
+
+.F-button {
+	width: 200px;
+	padding: 15px 30px;
+	border: 1px solid #d3995f;
+	outline: none;
+	background: none;
+	font-size: 20px;
+	font-weight: 600;
+}
+.F-button a{
+    color: #2a2a2a;
+}
+
+
+/* ============================ */
+   /* ======= EndShowCase ======= */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ======= Button-Navbar ======= */
+/* ============================== */
+
+/* LeftNav */
+.button-navbar {
+	background-color: #292929;
+	width: 100%;
+}
+
+.navbar-btn {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	position: relative;
+}
+.flag img{
+    width: 100%;
+}
+.navbar-option {
+	display: flex;
+	padding: 20px 0;
+	width: 25%;
+}
+#cars{
+    background: none;
+    border: none;
+    padding: 0 0 0 20px;
+    color: #fff;
+}
+#cars:hover{
+    background-color: none;
+    border: none;
+    outline: none;
+    color: #d3995f;
+}
+.sidenav a, .F-dropdown-btn {
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+	display: block;
+	border: none;
+	background: none;
+	width: 100%;
+	text-align: left;
+	cursor: pointer;
+	outline: none;
+}
+.F-dropdown-btn{
+	color: #fff;
+} 
+.dropdown-container {
+	display: none;
+	background-color: #fff;
+	padding-left: 8px;
+	color: #000;
+  }
+.fa-caret-down {
+	padding-right: 8px;
+}
+
+/* RightNav */
+.navbar-list{
+	width: 75%;
+	position: relative;
+}
+.navbar-list a {
+	float: left;
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 25px 15px;
+	text-decoration: none;
+	font-size: 13px;
+} 
+ 
+.navbar-list .F-Search {
+	padding: 12px 150px 12px 15px;
+	top: 10px;
+	font-size: 17px;
+	border: none;
+    position: relative;
+} 
+.navbar-list .search-container button {
+	padding: 12px;
+	background: #d2985e;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+	position: absolute;
+	top: 10px;	
+} 
+.shoping-card{
+	display: flex;
+	position: absolute;
+	right: 0;
+	top: 10px;
+
+}
+.shoping-card a{
+background-color: #fff;
+color: #000;
+padding: 14px 25px;
+font-size: 12px;
+font-weight: 500;
+}
+.shoping-card .fa-shopping-cart{
+	padding: 12px;
+	background: #d2985e;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+   display: flex;
+   color: #fff;
+}
+
+   @media screen and (max-width: 600px) {
+	.navbar-list.search-container {
+	  float: none;
+	}
+	.navbar-list a, .navbar-list input[type=text], .navbar-list .search-container button {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	  width: 100%;
+	  margin: 0;
+	  padding: 14px;
+	}
+	.navbar-list input[type=text] {
+	  border: 1px solid #ccc;  
+	}
+  } 
+
+
+  /* ============================ */
+   /* ===== End Button-Navbar ==== */
+  /* ============================ */
+
+  /* ---------------------------------------------------------------------------------------------------------------------- */
+
+  /* =============================== */
+   /* ======= PopularNow ======= */
+ /* ============================== */
+.popular h2{
+   padding: 60px 0 20px 0;
+   font-size: 30px;
+   text-align: center;
+   color:#ddb388;
+   font-weight: 500;
+}
+.tab{
+	text-align: center;
+}
+.tab button {
+	background :none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px 70px 16px;
+	transition: 0.3s;
+	font-size: 15px;
+	font-weight: 600;
+	color: #2a2a2a;
+}
+.tab button.active {
+    color: #d3995f;
+}
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border-top: none;
+}
+.tranding{
+	display: flex;
+    width: 100%;
+	flex-wrap: wrap;
+}
+.trand-img{
+ 	 width: 25%; 
+}
+.trand-img img{
+	width: 100%;
+	height: 325px;
+	max-width:265px;
+	object-fit: cover;
+}
+.trand-img h6{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	padding: 20px 0 5px 0;
+	color: #2a2a2a;
+}
+.trand-img p{
+	font-size: 15px;
+	color: #ddb388;
+	text-align: center;
+	padding: 0 0 45px 0;
+}
+.para-4{
+	padding: 0 0 70px 0 !important;
+}
+
+/* ============================ */
+   /* ===== End PopularNow  ==== */
+  /* ============================ */
+
+  /* ---------------------------------------------------------------------------------------------------------------------- */
+
+  /* =============================== */
+   /* ======= NewCollection ======= */
+ /* ============================== */
+
+ .F-collection{
+	background-color: #f9f9f9;
+}
+.trand-img-1{
+	width: 25%; 
+}
+.trand-img-1 img{
+  width: 100%;
+  height: 200px;
+  max-width:265px;
+  object-fit: cover;
+}
+.F-winter{
+	text-align: center;
+}
+.F-winter h2{
+	font-size: 30px;
+	padding: 60px 0 29px 0;
+	color: #d2985e;
+	font-weight: 500;
+}
+.F-winter p{
+	font-size: 15px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #686868;
+    font-family: 'Lora', serif;
+}
+.para{
+	padding: 0 0 40px 0;
+}
+
+.F-all-button{
+	padding: 15px 25px;
+    border: 1px solid #d3995f;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+	width: 170px;
+}
+.F-all-button a{
+	color: #2a2a2a;
+}
+.trandingg{
+	margin-top: 65px;
+}
+.text-collection{
+	display: flex;
+	justify-content: space-between;
+}
+.text-collection h6{
+padding: 10px 0px 70px 10px;
+font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	color: #2a2a2a;
+}
+.text-collection p{
+	font-size: 15px;
+	color: #ddb388;
+	text-align: center;
+	padding: 10px 10px 50px 0px;
+}
+/* ============================ */
+   /* ===== End NewCollection  ==== */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ======= NewSeason ======= */
+/* ============================== */
+
+.F-season{
+	background: #292929;
+}
+.season-text{
+	text-align: center;
+	padding: 100px 0px 110px 0;
+}
+.season-text h4{
+	font-size: 30px;
+	color: #d2985e;
+	font-weight: 500;
+	padding: 0 0 12px 0;
+}
+.season-text h2{
+	font-size: 50px;
+	color: #fff;
+    font-weight: 500;
+	
+}
+/* ============================ */
+   /* ===== End NewSeasonn  ==== */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ======= NewLetter ======= */
+/* ============================== */
+
+
+.F-newsletter{
+	background-color: #f9f9f9;
+}
+.F-letter{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	position: relative;
+	padding: 45px 0 50px 100px;
+}
+.F-letter-a{
+	width: 30%;
+}
+.F-letter-a h5{
+	font-size: 20px;
+	color: #2a2a2a;
+}
+.F-letter-b{
+	width: 40%;
+}
+.myEmail{
+position: absolute;
+top: 25%;
+padding: 15px 150px 15px 20px;
+border: 1px solid #d2985e;
+color: #acacac;
+
+}
+.F-letter-c{
+	width: 20%;
+}
+.NewSubmit{
+	padding: 15px 40px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 25%;
+	outline: none;
+	border: none;
+	background: #d2985e;
+}
+  .NewSubmit a{
+	color: #fff;
+}
+  .newsbtn{
+	color: white;
+	border: none;
+}
+  /* ============================ */
+   /* ===== End NewLetter  ==== */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ======= Form Collection === */
+/* ============================== */
+
+.Form-collection{
+     display: flex;
+     width: 100%;
+     flex-wrap: wrap;
+}
+.form-coll-text{
+     width: 47%;
+	 right: 0;
+}
+.form-tab{
+      width: 53%;
+	  padding: 120px 16px 65px 16px;
+	  text-align: center;
+}
+.form-coll-text h2{
+padding: 65px 0 40px 0;
+font-size: 30px;
+color: #d2985e;
+font-weight: 500;
+}
+.form-coll-text p{
+	font-size: 15px;
+	padding: 0 0 45px 0;
+	line-height: 25px;
+	color: #7d7d7d;
+}
+.tabs button {
+	cursor: pointer;
+	padding: 15px 20px 15px 15px;
+	transition: 0.3s;
+	font-size: 15px;
+	float: right;
+	outline: none;
+	background: none;
+	border: 1px solid #d2985e;
+	margin: 1px;
+	font-weight: 500;
+
+}
+.tabs button:hover {
+	background-color: #f1f1f1;
+}
+.Show-btn{
+   	width: 100%;
+	text-align: center;
+	
+	
+}
+.Show-btn a{
+	border: 1px solid #d2985e;
+	padding: 15px 40px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #292929;
+	width: 200px;
+}
+
+
+/* ============================ */
+   /* == End Form Collection=== */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ========= About========== */
+/* ============================== */
+.about{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 85px;
+}
+.F-About{
+	width: 50%;
+	background: #eeeeec;
+}
+.F-about{
+	width: 50%;
+	background: #f9f9f9;
+	padding: 60px 0 70px 125px;
+}
+.F-about h2{
+padding: 0 0 45px 0;
+font-size: 25px;
+font-weight: 600px;
+color: #2a2a2a;
+}
+.F-about p{
+	padding: 40px 0 50px 0;
+	font-size: 15px;
+	line-height: 28px;
+	max-width: 444px;
+	color: #2a2a2a;
+}
+.About-btn{
+	padding: 15px 35px;
+    border: 1px solid #d3995f;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+	width: 170px;
+}
+.About-btn a{
+	color: #535353;
+}
+
+/* ============================ */
+   /* == End AboutUs=== */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ========= Footer ========== */
+/* ============================== */
+
+.F-footer{
+	background-color: #292929;
+}
+#F-footer{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 60px 0 62px 0;
+}
+.F-logo{
+	width: 36%;
+}
+.para-1{
+	font-size: 15px;
+	padding: 25px 0 15px 0;
+	color: #fff;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 352px;
+}
+.para-2, .para-3{
+	color: #fff;
+	line-height: 30px;
+	font-size: 15px;
+}
+.para-3 span{
+	color: #d2985e;
+}
+.F-footer h4{
+color: #fff;
+font-size: 15px;
+font-weight: 500;
+}
+.F-links{
+	width: 12%;
+}
+.F-links li, .F-shop li{
+	padding: 18px 0 0 0;
+}
+.F-links li a, .F-shop li a{
+	color: #fff;
+	font-size: 13px;
+    max-width: 200px;
+}
+.F-shop{
+	width: 12%;
+}
+.F-contact{
+	width: 40%;
+}
+.F-contact p{
+	font-size: 15px;
+	color: #fff;
+	padding: 13px 0 30px;
+	line-height: 27px;
+	font-family: 'Montserrat', sans-serif;
+}
+.F-graphbtn{
+	border: 1px solid #d2985e;
+	padding: 15px 60px;
+	background: none;
+	outline: none;
+}
+.F-graphbtn a{
+	font-size: 15px;
+	color: #fff;
+}
+.F-social-icon{
+	padding: 45px 0 0 0;
+}
+.F-social-icon .fa{
+	color: #fff;
+	padding: 0 12px 0 12px;
+}
+
+/* ============================ */
+   /* ===== End Footer======= */
+/* ============================ */
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+
+/* =============================== */
+   /* ========= Responsive ========== */
+/* ============================== */
+
+
+@media only screen and (max-width:1170px) {
+	.button-navbar{
+		display: none;
+	}
+	.F-about p {
+		padding: 40px 45px 50px 0;
+		max-width: 100%;
+}
+}
+@media (max-width:1080px){
+	.showcas-img img{
+		right: 0;
+	}
+	.trand-img{
+		padding: 0 10px;
+	}
+	.trand-img-1{
+		padding: 0 10px;
+	}
+}
+@media (max-width:1040px){
+	.nav-items ul li{
+		padding: 45px 10px 50px 10px;
+	}
+}
+@media (max-width:1000px){
+	.F-letter-a h5{
+		font-size: 15px;
+	}
+	.F-letter-a h5{
+		font-size: 15px;
+	}
+	.myEmail {
+		padding: 15px 100px 15px 20px;
+	}
+	#F-footer {
+		padding: 60px 40px 62px 40px;
+}
+}
+@media (max-width:900px){
+.F-logo{
+	width: 30%;
+}
+.F-about {
+    padding: 53px 0 70px 26px;
+}
+}
+@media (max-width:880px){
+	.nav-items{
+		padding: 0px;
+	}
+	.showcas-img img{
+		right: 0;
+	}
+	.title{
+		padding: 60px 0px 70px 20px;
+	}
+	.myEmail {
+		padding: 15px 13px 15px 20px;
+	}
+	.F-letter-a h5 {
+		font-size: 13px;
+	}
+
+}
+@media (max-width:880px){
+.F-logo{
+	width: 61%;
+}
+.F-links{
+	width: 39%;
+}
+.F-links li,.F-footer .F-links h4 {
+    text-align: right;
+}
+.F-shop {
+    width: 50%;
+	margin-top: 40px;
+}
+.F-contact {
+    width: 50%;
+	margin-top: 40px;
+}
+}
+@media only screen and (max-width:772px) {
+.tabs button {
+    padding: 10px 10px 15px 15px;
+}
+}
+@media only screen and (max-width:750px) {
+	.navbar{
+		display: none;
+	}
+	.F-mobile-menu,.F-nav-items .checkbtn {
+		display: block;
+	}
+	.F-nav-items{
+		padding: 0 20px;
+	}
+	.F-nav-items ul{
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		top: 130px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+		background: #2c3e50;
+		z-index: 1;
+		
+	}
+	nav .F-nav-items ul li{
+		display: block;
+		padding: 25px 10px 25px 10px;
+	}
+	nav .F-nav-items ul li a{
+		font-size: 15px;
+		color: #fff;
+		
+	}
+	a:hover,a.active{
+		background: none;
+		color: #0082e6;
+	}
+	#check:checked ~ ul{
+	left:  0;
+	}
+	.F-letter-b{
+		width: 42%;
+	}
+	.NewSubmit {
+		padding: 15px 35px;
+	}
+	.NewSubmit {
+		padding: 15px 40px;
+	} 
+	.F-text{
+		padding: 0 0 0 10px;
+	}
+}
+@media (max-width:700px){
+	.title{
+		width: 50%;
+	}
+	.showcas-img{
+		width: 35%;
+	}
+	.title{
+		padding: 60px 0px 70px 20px;
+	}
+	.title h2{
+		font-size: 40px;
+	}
+	.trand-img{
+		width: 50%;
+		}
+		.trand-img img{
+			height: auto;
+			max-width: 100%;;
+		}
+		.tabs button {
+			padding: 15px 25px 15px 25px;
+		}
+		.para-4 {
+			padding: 0 0 25px 0 !important;
+		}
+		.trand-img-1 {
+			width: 50%;
+		}
+		.trand-img-1 img{
+			max-width: 100%;
+			height: 300px
+		}
+		.form-coll-text {
+			width: 100%;
+			text-align: center;
+		}
+		.form-tab {
+			width: 100%;
+			padding: 10px 50px 65px 0px;
+		}
+		.form-tab {
+			padding: 10px 130px 65px 0px;
+		}
+		.F-about {
+			width: 100%;
+			padding: 60px 0 0px 0px;
+			text-align: center;
+		}
+		.F-about p{
+			padding: 40px 40px 50px 40px;
+		}
+		.F-footer {
+			margin-top: 40px;
+		}
+		.showcas-img{
+			width: 45%;
+		}
+		.About-btn{
+			margin-bottom: 30px;
+		}
+		.form-tab {
+			padding: 10px 137px 65px 7px;
+		}
+	}
+		
+@media (max-width:655px) {
+	.F-topnav .F-text li{
+		padding: 8px 23px 8px 10px;
+	}
+	.NewSubmit {
+		padding: 15px 20px;
+	}
+	.myEmail {
+		padding: 15px 0px 15px 20px;
+	}
+	.F-letter-b {
+		width: 47%;
+	}
+	.F-graphbtn {
+		padding: 12px 20px;
+}
+.F-graphbtn a{
+	font-size: 12px;
+}
+}
+@media (max-width:615px) {
+	.F-nav-items ul{
+		top: 170px;
+	}
+	.F-text, .F-social{
+		width: 100%;
+		text-align: center;
+	}
+    .F-topnav .F-text li, .F-topnav .F-social li{
+		padding: 12px 20px 12px 0;
+	}
+}
+@media (max-width:600px) {
+	.F-letter-a{
+		width: 60%;
+	}
+	.F-letter-c{
+		display: none;
+	}
+	.myEmail{
+		width: 60%;
+		margin: 0 auto;
+	}
+	.form-tab {
+		padding: 10px 68px 65px 0px;
+	}
+}
+@media (max-width:580px) {
+	.F-nav-items ul{
+		top: 200px;
+	}
+	.title h2{
+		font-size: 30px;
+	}
+	
+}
+@media (max-width:550px) {
+	.main-wrapper{
+		text-align: center;
+	}
+	.title{
+		width: 100%;
+	}
+	.showcas-img{
+		width: 100%;
+		padding: 0 20px 0 20px;
+		height: 480px;
+		max-width: 100%;
+	}
+	.title{
+		padding: 60px 20px 70px 20px;
+	}	
+	.tabs button {
+		padding: 15px 15px 15px 15px;
+	}
+}
+@media (max-width:510px) {
+
+	.tabs button {
+		padding: 15px 15px 15px 15px;
+	}
+}  
+@media (max-width:470px) {
+	.form-tab {
+		padding: 10px 32px 65px 0px;
+	}
+
+ }
+@media (max-width:450px) {
+	.trand-img{
+		width: 100%;
+	}
+	.trand-img-1 {
+		width: 100%;
+	}
+	.trand-img img{
+		height: auto;
+	}
+	.tab button {
+		padding: 14px 10px 37px 5px;
+		font-size: 12px;
+	}
+	.form-tab {
+		padding: 10px 34px 65px 0px;
+	} 
+	 .tabs button {
+			cursor: pointer;
+			padding: 15px 10px 15px 10px;
+			font-size: 10px;
+		} 
+		.About-btn{
+			margin-bottom: 0;
+		}
+	}
+		@media (max-width:450px) {
+		.F-logo {
+			width: 100%;
+			text-align:  center;
+		}
+		.para-1{
+			max-width: 100%;
+		}
+		.F-links {
+			width: 60%;
+			margin-top: 30px;
+	}
+	.para-1{
+		line-height: 27px;
+	}
+	.F-shop {
+		width: 100%;
+		text-align: center;
+	}
+	.F-contact {
+		width: 100%;
+		text-align: center 	;
+	}
+	.form-tab {
+		padding: 10px 88px 65px 0px;
+	}
+}
+
+@media (max-width:380px) {
+.form-tab {
+    padding: 10px 53px 65px 0px;
+}
+}
+@media (max-width:350px) {
+	.F-nav-items ul{
+		top: 205px;
+	}
+	.F-letter-b {
+		margin: 0 23px 0 -26px;
+	}
+	.F-letter-a h5{
+		display: none;
+	}
+	.form-tab {
+		padding: 10px 22px 65px 0px;
+	}
+	
+
+
+
+  
+  
